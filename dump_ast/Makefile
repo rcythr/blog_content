@@ -6,3 +6,6 @@ dump_ast:
 		-shared \
 		dump_ast.cc \
 		-o dump_ast.so
+
+clean:
+	rm dump_ast.so test
